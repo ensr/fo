@@ -1,0 +1,16 @@
+---
+author: 'ensr'
+description: 'folyo'
+email: 'ensar.hamzacebi@bil.omu.edu.tr'
+url: 'ensr.github.io'
+domain: ''
+intro: ''
+googleanalytics: ''
+googleplus: ''
+brand: default
+landslide: /usr/bin/landslide
+css: _/default.css
+js: _/default.js
+theme: light
+indextemplate: _/index.erb
+foliotemplate: _/default.erb
