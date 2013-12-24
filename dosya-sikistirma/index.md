@@ -2,7 +2,9 @@
 
 .fx: first
 
-ensr `<ensar.hamzacebi@bil.omu.edu.tr>`
+Ensar Hamzaçebi `<ensar.hamzacebi@bil.omu.edu.tr>`
+
+Mehmet Başal `<mehmet.basal@bil.omu.edu.tr>`
 
 http://ensr.github.io/
 
