@@ -2,7 +2,7 @@
 
 .fx: first
 
-pasali `<ensar.hamzacebi@bil.omu.edu.tr>`
+ensr `<ensar.hamzacebi@bil.omu.edu.tr>`
 
 http://ensr.github.io/
 
@@ -98,7 +98,7 @@ DCT (The Discrete Cosine Transformation)
 
 ---
 
-##  Quantization (Devam)
+##  Quantization
 
 Önce
 :
@@ -134,11 +134,11 @@ Sonra:
 
 ##  Mp3
 
--   MPEG-1 Audio Standardı üç farklı sıkıştırma düzeyine sahip:
+MPEG-1 Audio Standardı üç farklı sıkıştırma düzeyine sahip:
 
-        * Layer I
-        * Layer II
-        * Layer III
+-   Layer I
+-   Layer II
+-   Layer III
 
 ---
 
@@ -147,6 +147,138 @@ Sonra:
 -   MPEG-1 Layer III Mp3 olarak bilinmekte
 -   128 kbit/s bant genişliği ile kodlar
 -   1/12 bit oranı ile sıkıştırma yapar
--   Değişken bit oranı ile de sıkıştırma yapar
+-   Değişken bit oranı (Veriable Bit Rate - VBR)
 -   Sesdeki karmaşık kısımlarda yüksek bit oranı kullanır
 -   Durağan kısımlarda düşük bit oranı kullanır
+
+---
+
+##  Mp3
+
+VBR dezavantajları:
+
+-   Müzikçalarların zamanı yanlış göstermesi
+-   Radyo ve televizyon yayınları için elverişli değil
+
+---
+
+##  Kayıpsız Dosya Sıkıştırma
+
+Dosya Skıştırma Yöntemleri:
+
+-   Run-Lenght Yöntemi
+-   Huffman Yöntemi
+
+---
+
+##  Dezavantajları
+
+-   İnsanlar tarafından anlaşılmaz
+-   Kodlamada ekstra maliyer
+-   Kod çözme modüllerine olan ihtiyaç
+-   Karmaşıklık artar
+
+---
+
+##  Run-Lenght Yöntemi
+
+-   Aynı byte dizinin sık kullanıldığı dosyalar için uygun
+-   Tekrar eden dizin 3 byte ile değiştirilir
+-   Bu 3 byte:
+
+        * Özel bir escape karakteri (FF)
+        * Tekrar eden değer
+        * Tekrar sayısı
+
+---
+
+##  Run-Lenght Örnek
+
+-   Veri seti:          22 23 24 24 24 24 24 24 25 26
+-   Kodlama sonucu:     22 23 FF 24 06 25 26
+-   FF: Escape karakteri
+-   24: Tekrar eden değer
+-   06: Tekrar sayısı
+
+---
+
+##  Run-Lenght
+
+-   Belirli bir miktar alan kazanmayı garanti etmez
+-   Sıkıştırılmış veri orjinalinden daha büyük olabilir
+
+---
+
+##  Huffman Yöntemi
+
+-   Kayıpsız sıkıştırma algoritması
+-   Karakterlerin frekansına bağlıdır
+-   Cok tekrarlanan az kodla
+-   Az tekrarlanan çok kodla
+-   %10 - %90 arası sıkıştırma
+
+---
+
+##  Huffman Yöntemi
+
+-   Frekans tablosu oluşturulur
+-   Huffman ağacı oluşturulur
+
+---
+
+##  Frekans Tablosu
+
+![res](media/frekans.png)
+
+---
+
+##  Huffman Ağacı
+
+-   Semboller frekansa göre sıralanır
+
+![res](media/huff1.png)
+
+---
+
+##  Huffman Ağacı
+
+-   En küçük iki frekans birleştirilir
+-   Sıralamada uyun yere yerleştirilir
+
+![res](media/huff2.png)
+
+---
+
+##  Huffman Ağacı
+
+-   Aynı işlemler tekrarlanır
+![res](media/huff3.png)
+
+---
+
+##  Huffman Ağacı
+
+-   Dallara soldan sağa 0-1 verilir
+![res](media/huff4.png)
+
+---
+
+##  Huffman Yöntemi
+
+-   Veri setinin kodlanmış hali
+
+![res](media/huff5.png)
+
+---
+
+##  Karşılaştırma
+
+ASCII kodlaması:
+
+-   Her karakter için 1 byte(8 bit)
+-   Toplamda 155 byte(1240 bit)
+
+Huffman kodlaması:
+
+-   Frekans x Bit sayısı
+-   60x1 + 40x2 + 25x3 + 20x4 + 10x4 0 = 335 bit
