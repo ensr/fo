@@ -125,27 +125,28 @@ Sonra:
 
 ##  Kayıplı Ses Sıkıştırma
 
-- İnsanın algılayamayacağı sesleri kodlamanın dışında bırakır
-- Ara işlemlerle sıkıştırma oranını artırır
-- Eski haline döndürülemez
-- Aradaki fark anlaşılamaz
+-   İnsanın algılayamayacağı sesleri kodlamanın dışında bırakır
+-   Ara işlemlerle sıkıştırma oranını artırır
+-   Eski haline döndürülemez
+-   Aradaki fark anlaşılamaz
 
 ---
 
 ##  Mp3
 
-MPEG-1 Audio Standardı üç farklı sıkıştırma düzeyine sahip:
-- Layer I
-- Layer II
-- Layer III
+-   MPEG-1 Audio Standardı üç farklı sıkıştırma düzeyine sahip:
+
+        * Layer I
+        * Layer II
+        * Layer III
 
 ---
 
 ##  Mp3
 
-- MPEG-1 Layer III Mp3 olarak bilinmekte
-- 128 kbit/s bant genişliği ile kodlar
-- 1/12 bit oranı ile sıkıştırma yapar
-- Değişken bit oranı ile de sıkıştırma yapar
-- Sesdeki karmaşık kısımlarda yüksek bit oranı kullanır
-- Durağan kısımlarda düşük bit oranı kullanır
+-   MPEG-1 Layer III Mp3 olarak bilinmekte
+-   128 kbit/s bant genişliği ile kodlar
+-   1/12 bit oranı ile sıkıştırma yapar
+-   Değişken bit oranı ile de sıkıştırma yapar
+-   Sesdeki karmaşık kısımlarda yüksek bit oranı kullanır
+-   Durağan kısımlarda düşük bit oranı kullanır
