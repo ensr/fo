@@ -284,3 +284,4 @@ Huffman kodlaması:
 
 -   Frekans x Bit sayısı
 -   60x1 + 40x2 + 25x3 + 20x4 + 10x4 0 = 335 bit
+
