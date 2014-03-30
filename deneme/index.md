@@ -4,7 +4,7 @@
 
 ensr `<ensar.hamzacebi@bil.omu.edu.tr>`
 
-http:///
+http://ensr.github.io
 
 Mart 2014
 
@@ -18,4 +18,4 @@ Deneme bir ki
 
 ##  deneme sayfa 2
 
-deneme deneme ses sessss
+deneme deneme ses sesssis
