@@ -10,7 +10,7 @@ Mart 2014
 
 ---
 
-## Git Nedir
+##  Git Nedir
 
 -   Dağınık Versiyon Kontrol Sistemi
 
@@ -22,7 +22,7 @@ Mart 2014
 ---
 
 
-## Çözüm Üretilen Problemler
+##  Çözüm Üretilen Problemler
 
 -   Kodlar güvenli bir şekilde saklanır
 
@@ -32,7 +32,7 @@ Mart 2014
 
 ---
 
-## Çözüm Üretilen Probemler
+##  Çözüm Üretilen Probemler
 
 -   Ne zaman hangi değişiklik yapıldı görülür
 
@@ -42,7 +42,7 @@ Mart 2014
 
 ---
 
-## Git Alternatifleri
+##  Git Alternatifleri
 
 -   CVS (Concurrent Version System)
 
@@ -72,7 +72,7 @@ Mart 2014
 
 ---
 
-## Geliştiriciler
+##  Geliştiriciler
 
 -   Linus Torvalds
 
@@ -86,8 +86,31 @@ Mart 2014
 
         $ sudo apt-get install git
 
----
-
-## deneme
+-   Debian/Ubuntu üzerinde kurulum bu şekildedir
 
 ---
+
+##  Depo Oluşturma
+
+---
+
+##  Depo Oluşturma
+
+-   Yerelde boş bir dizin oluşturulur ve dizine girilir
+
+-   Depo ilklenir (initializing)
+
+        !sh
+
+        git init
+
+-   `.git` otomatik olarak oluşturulur
+
+        *   Depo ile ilgili bilgiler tutulur
+
+        *   ???
+
+---
+
+
+
