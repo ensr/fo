@@ -92,6 +92,16 @@ Mart 2014
 
 ##  Depo Oluşturma
 
+github.com'dan depo oluşturma
+
+-   create -> New repostory
+
+-   Deponun adı girilir
+
+-   Public/Private seçilir
+
+-   Create repository tıklanır
+
 ---
 
 ##  Depo Oluşturma
@@ -102,7 +112,7 @@ Mart 2014
 
         !sh
 
-        git init
+        $ git init
 
 -   `.git` otomatik olarak oluşturulur
 
@@ -112,5 +122,15 @@ Mart 2014
 
 ---
 
+##  Depo Klonlama
 
+- Github'daki depoyu klonlamak
+
+        !sh
+
+        $ git clone git@github.com:<hesap>/<depo>.git
+
+---
+
+##  
 
