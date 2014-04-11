@@ -10,4 +10,8 @@ Nisan 2014
 
 ---
 
-##  
+## Eclipse kurulum
+
+-   JDK kurmayı unutma
+
+-   
