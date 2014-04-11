@@ -43,11 +43,9 @@ Nisan 2014
 -   Listenin ortasındaki elemana git karşılaştır
 
 -   Aranan eleman daha büyükse
-
         *   Sağdaki yarım listenin ortasına git
 
 -   Aranan eleman daha küçükse
-
         *   Soldaki yarım listenin ortasına git
 
 -   Eşleşma sağlanıncaya kadar devam et
@@ -86,6 +84,82 @@ Nisan 2014
 
 -   Liste boyutu eleman sayısı kadardır
 
--   Yük oranı 1'dir 
+-   Yük oranı 1'dir
+
+---
+
+##  Çakışma (Collusion) Çözümleme
+
+-   Çakışma: Aynı slot'a iki elemanın talip olması
+
+-   Açık adresleme
+
+-   Zincirleme
+
+---
+
+##  Açık Adresleme
+
+-   Çakışma varsa liste içinde sırayla ilerle
+
+-   İlk boş slot'a yerleştir
+
+---
+
+##  Zincirleme
+
+-   Çakışma varsa o slot'ta liste oluştur
+
+-   Elemanı o listeye ekle
+
+---
+
+##  Sıralama
+
+-   Liste elemanlarını sıralama algoritmaları
+
+-   Baloncuk (Bubble) Sıralama
+
+-   Seçmali (Selection) Sıralama
+
+-   Araya Girmeli (Insertion) Sıralama
+
+---
+
+##  Baloncuk (Bubble) Sıralama
+
+-   Listede dolaş
+
+-   Komşu elemanları karşılaştır
+
+-   Gerekirse yer değiştir
+
+-   Her eleman doğru yerine gelinceye kadar devam et
+
+---
+
+##  Seçmeli (Selection) Sıralama
+
+-   Listedeki en büyük elemanı bul
+
+-   Listenin en sonuna koy
+
+-   Sonraki en büyük elemanı bul
+
+-   En sonun bir yanına koy
+
+-   Sıralama tamamlanıncaya kadar devam et
+
+---
+
+##  Araya Girmeli (Insertion) Sıralama
+
+-   Liste içinde dolaş
+
+-   Seçilen her elemanı öncekilerle sırayla karşılaştır
+
+-   Doğru araya yerleştir
+
+-   Listede ilerlendikçe geride sıralı bir liste oluşmaya başlar
 
 
