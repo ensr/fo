@@ -26,7 +26,9 @@ Nisan 2014
 
 ---
 
-##  Ardışıl (Sequential) Arama
+##  Arama
+
+Ardışıl (Sequential) Arama
 
 -   Listede sırayla dolaş
 
@@ -36,7 +38,9 @@ Nisan 2014
 
 ---
 
-##  İkil Arama
+##  Arama
+
+İkil Arama
 
 -   Listeyi küçükten büyüğe sırala
 
@@ -52,7 +56,9 @@ Nisan 2014
 
 ---
 
-##  Maliyet
+##  Arama
+
+Maliyet
 
 -   n (liste boyu) küçükse bir kere sırala ikil ara
 
@@ -78,7 +84,9 @@ Nisan 2014
 
 ---
 
-##  Mükemmel Çırpı
+##  Hash
+
+Mükemmel Çırpı
 
 -   Çakışmanın sıfır olduğu hash'dir
 
@@ -98,7 +106,9 @@ Nisan 2014
 
 ---
 
-##  Açık Adresleme
+##  Çakışma
+
+Açık Adresleme
 
 -   Çakışma varsa liste içinde sırayla ilerle
 
@@ -106,7 +116,9 @@ Nisan 2014
 
 ---
 
-##  Zincirleme
+##  Çakışma
+
+Zincirleme
 
 -   Çakışma varsa o slot'ta liste oluştur
 
@@ -126,7 +138,9 @@ Nisan 2014
 
 ---
 
-##  Baloncuk (Bubble) Sıralama
+##  Sıralama
+
+Baloncuk (Bubble) Sıralama
 
 -   Listede dolaş
 
@@ -138,7 +152,9 @@ Nisan 2014
 
 ---
 
-##  Seçmeli (Selection) Sıralama
+##  Sıralama
+
+Seçmeli (Selection) Sıralama
 
 -   Listedeki en büyük elemanı bul
 
@@ -152,7 +168,9 @@ Nisan 2014
 
 ---
 
-##  Araya Girmeli (Insertion) Sıralama
+##  Sıralama
+
+Araya Girmeli (Insertion) Sıralama
 
 -   Liste içinde dolaş
 
