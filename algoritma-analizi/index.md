@@ -180,4 +180,6 @@ Araya Girmeli (Insertion) Sıralama
 
 -   Listede ilerlendikçe geride sıralı bir liste oluşmaya başlar
 
+---
+
 
