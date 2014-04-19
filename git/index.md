@@ -148,5 +148,26 @@ github.com'dan depo oluşturma
 
 ---
 
+##  Mevcut Dizini Depo Yapma
+
+-   Github'da repo oluştur
+
+-   Yereldeki mevcut dizinde:
+
+        !sh
+
+        $ touch README.md
+
+        $ git init
+
+        $ git add README.md
+
+        $ git commit -m "first commit"
+
+        $ git remote add origin git@github.com:ensr/gitDeneme.git
+
+        $ git push -u origin master
+
+
 
 
