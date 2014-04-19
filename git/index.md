@@ -138,7 +138,7 @@ github.com'dan depo oluşturma
 
         !sh
 
-        $git add .
+        $ git add .
 
 -   Belirli bir dosyayı ekle
 
