@@ -124,7 +124,7 @@ github.com'dan depo oluşturma
 
 ##  Depo Klonlama
 
-- Github'daki depoyu klonlamak
+-   Github'daki depoyu klonlamak
 
         !sh
 
@@ -132,5 +132,20 @@ github.com'dan depo oluşturma
 
 ---
 
-##  
+##  Depoya Dosya Ekleme
+
+-   Bütün depoyu ekle
+        !sh
+
+        $ git add .
+
+-   Belirli bir dosyayı ekle
+
+        !sh
+
+        $ git add <dosya_adi>
+
+---
+
+
 
