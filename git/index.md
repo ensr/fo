@@ -135,6 +135,7 @@ github.com'dan depo oluşturma
 ##  Depoya Dosya Ekleme
 
 -   Bütün depoyu ekle
+
         !sh
 
         $ git add .
