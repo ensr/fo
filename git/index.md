@@ -134,12 +134,11 @@ github.com'dan depo oluşturma
 
 ##  Depoya Dosya Ekleme
 
--   Bütün depoyu ekle
+-   Bütün depoyu ekleme
 
         !sh
 
-        $ git add .
-
+        $git add .
 
 -   Belirli bir dosyayı ekle
 
