@@ -168,6 +168,42 @@ github.com'dan depo oluşturma
 
         $ git push -u origin master
 
+---
 
+##  SSH Protokolü
 
+-   En çok kullanılan erişim yöntemi
 
+-   Depoyu oku - Depoya yaz
+
+-   Erişim güvenlidir
+
+-   Tüm data şifrelenir
+
+-   Sadece kendi makinenizden erişim mümkün
+
+---
+
+##  Git Protokolü
+
+-   Erişim güvenliği yok
+
+-   Depo herkes tarafından clonlanabilir
+
+-   Depo'ya push yapılamaz (read-only accses)
+
+-   En hızlı erişim yöntemi
+
+---
+
+##  Http/s Protokolü
+
+-   Kurulumu kolay
+
+-   read-only accses
+
+-   ???
+
+---
+
+##
