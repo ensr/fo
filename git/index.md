@@ -148,6 +148,42 @@ github.com'dan depo oluşturma
 
 ---
 
+##  Yerelde Değişiklikleri Kaydetme
+
+-   `git commit` kullanılır
+
+        !sh
+
+        $ git commit -a -m "<metin>"
+
+---
+
+##  Uzaktaki Depoya Gönderme
+
+-   `git push` ile gönderilir
+
+        !sh
+
+        $ git push origin master
+
+-   master dalına push edildi
+
+        !sh
+
+        $ git push origin gh-pages
+
+-   gh-pages dalına push edildi
+
+---
+
+##  Uzak Depodan Yerelin Güncellenmesi
+
+        !sh
+
+        $ git pull
+
+---
+
 ##  Mevcut Dizini Depo Yapma
 
 -   Github'da repo oluştur
@@ -206,4 +242,4 @@ github.com'dan depo oluşturma
 
 ---
 
-##
+##  
