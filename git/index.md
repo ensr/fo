@@ -162,17 +162,17 @@ github.com'dan depo oluşturma
 
 -   `git push` ile gönderilir
 
+-   master dalına push etme
+
         !sh
 
         $ git push origin master
 
--   master dalına push edildi
+-   gh-pages dalına push etme
 
         !sh
 
         $ git push origin gh-pages
-
--   gh-pages dalına push edildi
 
 ---
 
@@ -242,4 +242,46 @@ github.com'dan depo oluşturma
 
 ---
 
-##  
+##  Yeni Dal Oluşturma
+
+-   Yeni dal oluşturma `branch` ile yapılır
+
+        !sh
+
+        $ git branch <yeni_dal_adı>
+
+---
+
+##  Dallar Arası Geçiş
+
+-   İstenilen dala `checkout` ile geçilir
+
+        !sh
+
+        $ git checkout <dal_adı>
+
+-   Dalı oluştur ve dala geç
+
+        !sh
+
+        $ git checkout -b <yeni_dal_adı>
+
+---
+
+##  Dalları Birleştirmek
+
+-   Önce master dalına geçilir
+
+        !sh
+
+        $ git checkout master
+
+-   Dallar birleştirilir
+
+        !sh
+
+        $ git merge <dal_adi>
+
+---
+
+
