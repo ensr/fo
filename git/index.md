@@ -122,16 +122,6 @@ github.com'dan depo oluşturma
 
 ---
 
-##  Depo Klonlama
-
--   Github'daki depoyu klonlamak
-
-        !sh
-
-        $ git clone git@github.com:<hesap>/<depo>.git
-
----
-
 ##  Depoya Dosya Ekleme
 
 -   Bütün depoyu ekleme
@@ -205,6 +195,14 @@ github.com'dan depo oluşturma
         $ git push -u origin master
 
 ---
+
+##  Depo Klonlama
+
+-   Github'daki depoyu klonlama
+
+        !sh
+
+        $ git clone git@github.com:<hesap>/<depo>.git
 
 ##  SSH Protokolü
 
