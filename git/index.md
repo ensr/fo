@@ -284,4 +284,8 @@ github.com'dan depo oluşturma
 
 ---
 
+##  Yapılandırma Dosya ve Dizinleri
 
+-   Yapılandırma dosyaları `.git` dizini altındadır
+
+-   
