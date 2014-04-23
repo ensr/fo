@@ -204,6 +204,8 @@ github.com'dan depo oluşturma
 
         $ git clone git@github.com:<hesap>/<depo>.git
 
+---
+
 ##  SSH Protokolü
 
 -   En çok kullanılan erişim yöntemi
