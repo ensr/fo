@@ -316,7 +316,7 @@ github.com'dan depo oluşturma
 
         !sh
 
-        $ git config --global<komut>
+        $ git config --global <komut>
 
 -   `<yerel_depo>/.git/config` bulundğu depoya özeldir
 
