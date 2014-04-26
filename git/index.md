@@ -274,7 +274,7 @@ github.com'dan depo oluşturma
 
         !sh
 
-        $git branch
+        $ git branch
 
          *master
 
