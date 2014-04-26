@@ -234,7 +234,7 @@ github.com'dan depo oluşturma
 
 -   Erişim güvenliği yok
 
--   Depo herkes tarafından clonlanabilir
+-   Depo herkes tarafından klonlanabilir
 
 -   Depo'ya push yapılamaz (read-only accses)
 
@@ -359,9 +359,5 @@ github.com'dan depo oluşturma
 ##  Uzak Depoyu Değiştirme
 
 -   `/.git/config` ayarlarını aç
-
-        !sh
-
-        $ vim /.git/config
 
 -   `[remote origin]` kısmındaki url değiştirilir
