@@ -346,4 +346,12 @@ github.com'dan depo oluşturma
 
 ---
 
+##  Uzak Depoyu Değiştirme
 
+-   /.git/config ayarlarını aç
+
+        !sh
+
+        $ vim /.git/config
+
+-   `[remote origin]` kısmındaki url değiştirilir
