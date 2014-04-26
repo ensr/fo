@@ -86,7 +86,7 @@ Mart 2014
 
 -   Linus Torvalds
 
--   Jnio Hamano
+-   Junio Hamano
 
 ---
 
