@@ -318,7 +318,7 @@ github.com'dan depo oluşturma
 
         $ git config --global <komut>
 
--   `<yerel_depo>/.git/config` bulundğu depoya özeldir
+-   `<yerel_depo>/.git/config` bulunduğu depoya özeldir
 
     *   Diğer ayarları override eder
 
@@ -346,9 +346,9 @@ github.com'dan depo oluşturma
 
 ##  Dosya Göz Ardı Etme
 
--   `.gitignore` dosyası ile ypılır
+-   `.gitignore` dosyası ile yapılır
 
--   Göz ardı edilecek dosya ve dizinlerin listesini tutar
+-   Göz ardı edilecek dosya ve dizinler listeye eklenir
 
         !sh
 
@@ -358,7 +358,7 @@ github.com'dan depo oluşturma
 
 ##  Uzak Depoyu Değiştirme
 
--   /.git/config ayarlarını aç
+-   `/.git/config` ayarlarını aç
 
         !sh
 
