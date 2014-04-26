@@ -312,7 +312,7 @@ github.com'dan depo oluşturma
 
     *   Diğer ayarları override eder
 
-    *   `.git/config` `/etc/gitconfig`'den daha baskındır
+    *   `.git/config` ayarları `/etc/gitconfig`'den daha baskındır
 
 ---
 
@@ -333,3 +333,17 @@ github.com'dan depo oluşturma
         $ git config --list
 
 ---
+
+##  Dosya Göz Ardı Etme
+
+-   `.gitignore` dosyası ile ypılır
+
+-   Göz ardı edilecek dosya ve dizinlerin listesini tutar
+
+        !sh
+
+        $ touch .gitignore
+
+---
+
+
