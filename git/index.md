@@ -50,6 +50,14 @@ Mart 2014
 
 -   BitKeeper
 
+-   Mercurial
+
+-   Perforce
+
+-   Bazaar
+
+-   Saire
+
 ---
 
 ##  Avantajlar
@@ -61,6 +69,8 @@ Mart 2014
 -   Disk alanı verimli kullanılır
 
 -   Conflict oluşma riski oldukça azdır
+
+-   Veri kaybı olmaz
 
 -   Öğrenmesi kolaydır
 
@@ -76,7 +86,7 @@ Mart 2014
 
 -   Linus Torvalds
 
--   ???
+-   Jnio Hamano
 
 ---
 
