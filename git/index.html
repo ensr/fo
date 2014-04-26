@@ -2706,7 +2706,7 @@ div.slide table:not(.highlighttable) tr td:first-child {
       
       <!-- slide source: git/index.md -->
       <div class="slide-wrapper">
-        <div class="slide">
+        <div class="slide has_code">
           <div class="inner">
             
             <header><h2>Yap&#305;land&#305;rma Dosya ve Dizinleri</h2></header>
@@ -2714,9 +2714,28 @@ div.slide table:not(.highlighttable) tr td:first-child {
             
             <section><ul>
 <li>
-<p>Yap&#305;land&#305;rma dosyalar&#305; <code>.git</code> dizini alt&#305;ndad&#305;r</p>
+<p><code>/etc/gitconfig</code> sistemdeki t&uuml;m kullan&#305;c&#305;lar&#305;n ayarlar&#305;n&#305; tutar</p>
+<div class="highlight"><pre><span class="nv">$ </span>git config --system &lt;komut&gt;
+</pre></div>
+
 </li>
-<li></li>
+<li>
+<p><code>~/.gitconfig</code> kullaniciya &ouml;zeldir</p>
+<div class="highlight"><pre><span class="nv">$ </span>git config --global&lt;komut&gt;
+</pre></div>
+
+</li>
+<li>
+<p><code>&lt;yerel_depo&gt;/.git/config</code> bulund&#287;u depoya &ouml;zeldir</p>
+<ul>
+<li>
+<p>Di&#287;er ayarlar&#305; override eder</p>
+</li>
+<li>
+<p><code>.git/config</code> <code>/etc/gitconfig</code>&lsquo;den daha bask&#305;nd&#305;r</p>
+</li>
+</ul>
+</li>
 </ul></section>
             
           </div>
@@ -2734,6 +2753,28 @@ div.slide table:not(.highlighttable) tr td:first-child {
             
             <aside class="page_number">
               24/24
+            </aside>
+          </footer>
+        </div>
+      </div>
+      
+      <!-- slide source:  -->
+      <div class="slide-wrapper">
+        <div class="slide">
+          <div class="inner">
+            
+            
+          </div>
+          <div class="presenter_notes">
+            <header><h1>Presenter Notes</h1></header>
+            <section>
+            
+            </section>
+          </div>
+          <footer>
+            
+            <aside class="page_number">
+              /24
             </aside>
           </footer>
         </div>

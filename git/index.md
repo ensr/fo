@@ -296,6 +296,22 @@ github.com'dan depo oluşturma
 
 ##  Yapılandırma Dosya ve Dizinleri
 
--   Yapılandırma dosyaları `.git` dizini altındadır
+-   `/etc/gitconfig` sistemdeki tüm kullanıcıların ayarlarını tutar
 
--   
+        !sh
+
+        $ git config --system <komut>
+
+-   `~/.gitconfig` kullaniciya özeldir
+
+        !sh
+
+        $ git config --global<komut>
+
+-   `<yerel_depo>/.git/config` bulundğu depoya özeldir
+
+    *   Diğer ayarları override eder
+
+    *   `.git/config` `/etc/gitconfig`'den daha baskındır
+
+---
