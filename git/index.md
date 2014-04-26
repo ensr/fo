@@ -276,9 +276,9 @@ github.com'dan depo oluşturma
 
         $git branch
 
-        *master
+         *master
 
-        slave
+          slave
 
 -   Dalı oluştur ve dala geç
 
