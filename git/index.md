@@ -270,6 +270,16 @@ github.com'dan depo oluşturma
 
         $ git checkout <dal_adı>
 
+-   Hangi daldasın bak
+
+        !sh
+
+        $git branch
+
+        *master
+
+        slave
+
 -   Dalı oluştur ve dala geç
 
         !sh
