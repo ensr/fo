@@ -315,3 +315,21 @@ github.com'dan depo oluşturma
     *   `.git/config` `/etc/gitconfig`'den daha baskındır
 
 ---
+
+##  Bazı Yapılandırma Ayarları
+
+-   Kullanıcı ismi ve eposta ayarlama
+
+        !sh
+
+        $ git config --global user.name "ensr"
+
+        $ git config --global email "ensar.hamzacebi@bil.omu.edu.tr"
+
+-   Ayarları listelemek için
+
+        !sh
+
+        $ git config --list
+
+---
