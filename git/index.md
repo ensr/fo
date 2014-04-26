@@ -126,9 +126,7 @@ github.com'dan depo oluşturma
 
 -   `.git` otomatik olarak oluşturulur
 
-        *   Depo ile ilgili bilgiler tutulur
-
-        *   ???
+    *   Depo ile ilgili bilgiler tutulur
 
 ---
 
