@@ -254,7 +254,7 @@ github.com'dan depo oluşturma
 
 -   Gönderimler şifrelenebilir
 
--   SSL üerinden veriler aktarılabilir
+-   SSL üzerinden veriler aktarılabilir
 
 ---
 
