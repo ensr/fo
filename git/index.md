@@ -374,4 +374,8 @@ github.com'dan depo oluşturma
 
 -   http://git-scm.com/book/tr
 
--   
+-   http://rogerdudler.github.io/git-guide/index.tr.html
+
+-   http://www.php-tr.com/git-versiyon-kontrol-sistemi-getirdigi-yenilikler-avantajlari-ve-dezatanvajlari/
+
+---
