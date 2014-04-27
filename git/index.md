@@ -379,3 +379,5 @@ github.com'dan depo oluşturma
 -   http://www.php-tr.com/git-versiyon-kontrol-sistemi-getirdigi-yenilikler-avantajlari-ve-dezatanvajlari/
 
 ---
+
+#   Teşekkürler
