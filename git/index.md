@@ -78,7 +78,11 @@ Mart 2014
 
 ##  Dezavantajlar
 
--   ???
+-   Öğrenimini zor bulanlar var
+
+-   Kurulumu sırasında sorunlar olabilir
+
+-   Hata mesajları ilk başta anlaşılamayabilir
 
 ---
 
@@ -126,7 +130,9 @@ github.com'dan depo oluşturma
 
 -   `.git` otomatik olarak oluşturulur
 
-    *   Depo ile ilgili bilgiler tutulur
+    *   Depo ile ilgili ayarlar tutulur
+
+    *   config dosyasının içinde depo ayarları tutulur
 
 ---
 
@@ -222,7 +228,7 @@ github.com'dan depo oluşturma
 
 -   Erişim güvenlidir
 
--   Tüm data şifrelenir
+-   Tüm data transferi şifrelenir
 
 -   Sadece kendi makinenizden erişim mümkün
 
@@ -246,7 +252,9 @@ github.com'dan depo oluşturma
 
 -   read-only accses
 
--   ???
+-   Gönderimler şifrelenebilir
+
+-   SSL üerinden veriler aktarılabilir
 
 ---
 
@@ -359,3 +367,11 @@ github.com'dan depo oluşturma
 -   `/.git/config` ayarlarını aç
 
 -   `[remote origin]` kısmındaki url değiştirilir
+
+---
+
+##  Kaynaklar
+
+-   http://git-scm.com/book/tr
+
+-   
