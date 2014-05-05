@@ -118,7 +118,7 @@ Mayıs 2014
 
 -   Global fitness' ı 1 olan cevaplar yanlış olabilir
 
--   1.1 den küçük ise <NOT FOUND> döndürülür
+-   1.1 den küçük ise NOT FIND döndürülür
 
 
 
