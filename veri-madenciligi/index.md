@@ -12,6 +12,6 @@ Mayıs 2014
 
 ##  Soru - Cevap Algoritması
 
-![Soru Cevap Algoritması](madia/ibm.png)
+![Soru Cevap Algoritması](media/ibm)
 
 ---
