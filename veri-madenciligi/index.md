@@ -10,12 +10,8 @@ Mayıs 2014
 
 ---
 
-##  Deneme
+##  Soru - Cevap Algoritması
 
--   fdssssssss
+![Soru Cevap Algoritması](madia/ibm.png)
 
 ---
-
-##  Deneme 2
-
--   sdafasd
