@@ -96,10 +96,6 @@ Mayıs 2014
 
 ---
 
-##  algoritma
-
----
-
 ##  Adım 4: Second Evaluation
 
 -   num_iter sayısı kere yukarıdaki adımlar tekrarlanır
@@ -120,6 +116,8 @@ Mayıs 2014
 
 -   1.1 den küçük ise NOT FIND döndürülür
 
+---
 
+##  Algoritma
 
-
+![algoritma](media/alg.png)
