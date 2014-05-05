@@ -27,7 +27,7 @@
     <meta http-equiv="X-UA-Compatible" content="chrome=1" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta id="viewport" name="viewport" content="user-scalable=no" />
-    <title>Algoritma Analizi</title>
+    <title>Veri Madencili&#287;i</title>
     <!-- Styles -->
     
     <style type="text/css" media="print">
@@ -1767,17 +1767,17 @@ div.slide table:not(.highlighttable) tr td:first-child {
     </div>
     <div class="slides">
       
-      <!-- slide source: algoritma-analizi/index.md -->
+      <!-- slide source: veri-madenciligi/index.md -->
       <div class="slide-wrapper">
         <div class="slide first">
           <div class="inner">
             
-            <header><h1>Algoritma Analizi</h1></header>
+            <header><h1>Veri Madencili&#287;i</h1></header>
             
             
             <section><p>ensr <code>&lt;ensar.hamzacebi@bil.omu.edu.tr&gt;</code></p>
 <p><a href="http://ensr.github.io/">http://ensr.github.io/</a></p>
-<p>Nisan 2014</p></section>
+<p>May&#305;s 2014</p></section>
             
           </div>
           <div class="presenter_notes">
@@ -1789,80 +1789,23 @@ div.slide table:not(.highlighttable) tr td:first-child {
           <footer>
             
             <aside class="source">
-              Source: <a href="algoritma-analizi/index.md">algoritma-analizi/index.md</a>
+              Source: <a href="veri-madenciligi/index.md">veri-madenciligi/index.md</a>
             </aside>
             
             <aside class="page_number">
-              1/14
+              1/2
             </aside>
           </footer>
         </div>
       </div>
       
-      <!-- slide source: algoritma-analizi/index.md -->
-      <div class="slide-wrapper">
-        <div class="slide has_code">
-          <div class="inner">
-            
-            <header><h2>T(n)</h2></header>
-            
-            
-            <section><ul>
-<li>
-<p>Problemin boyutu</p>
-</li>
-<li>
-<p>Algoritmada ger&ccedil;ekle&#351;tirilen i&#351;lem say&#305;s&#305;</p>
-<div class="highlight"><pre><span class="k">def</span> <span class="nf">sumOfN</span><span class="p">(</span><span class="n">n</span><span class="p">):</span>
-    <span class="nb">sum</span> <span class="o">=</span> <span class="mi">0</span>
-    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="n">n</span><span class="o">+</span><span class="mi">1</span><span class="p">):</span>
-        <span class="nb">sum</span> <span class="o">=</span> <span class="nb">sum</span> <span class="o">+</span> <span class="mi">1</span>
-    <span class="k">return</span> <span class="nb">sum</span>
-</pre></div>
-
-</li>
-</ul></section>
-            
-          </div>
-          <div class="presenter_notes">
-            <header><h1>Presenter Notes</h1></header>
-            <section>
-            
-            </section>
-          </div>
-          <footer>
-            
-            <aside class="source">
-              Source: <a href="algoritma-analizi/index.md">algoritma-analizi/index.md</a>
-            </aside>
-            
-            <aside class="page_number">
-              2/14
-            </aside>
-          </footer>
-        </div>
-      </div>
-      
-      <!-- slide source: algoritma-analizi/index.md -->
+      <!-- slide source: veri-madenciligi/index.md -->
       <div class="slide-wrapper">
         <div class="slide">
           <div class="inner">
             
-            <header><h2>Arama</h2></header>
+            <header><h2>&#305;bm watson</h2></header>
             
-            
-            <section><p>Ard&#305;&#351;&#305;l (Sequential) Arama</p>
-<ul>
-<li>
-<p>Listede s&#305;rayla dola&#351;</p>
-</li>
-<li>
-<p>Aran&#305;lan eleman ile kar&#351;&#305;la&#351;t&#305;r</p>
-</li>
-<li>
-<p>E&#351;le&#351;me sa&#287;land&#305;&#287;&#305;nda &ccedil;&#305;k</p>
-</li>
-</ul></section>
             
           </div>
           <div class="presenter_notes">
@@ -1874,485 +1817,11 @@ div.slide table:not(.highlighttable) tr td:first-child {
           <footer>
             
             <aside class="source">
-              Source: <a href="algoritma-analizi/index.md">algoritma-analizi/index.md</a>
+              Source: <a href="veri-madenciligi/index.md">veri-madenciligi/index.md</a>
             </aside>
             
             <aside class="page_number">
-              3/14
-            </aside>
-          </footer>
-        </div>
-      </div>
-      
-      <!-- slide source: algoritma-analizi/index.md -->
-      <div class="slide-wrapper">
-        <div class="slide">
-          <div class="inner">
-            
-            <header><h2>Arama</h2></header>
-            
-            
-            <section><p>&#304;kil Arama</p>
-<ul>
-<li>
-<p>Listeyi k&uuml;&ccedil;&uuml;kten b&uuml;y&uuml;&#287;e s&#305;rala</p>
-</li>
-<li>
-<p>Listenin ortas&#305;ndaki elemana git kar&#351;&#305;la&#351;t&#305;r</p>
-</li>
-<li>
-<p>Aranan eleman daha b&uuml;y&uuml;kse
-        *   Sa&#287;daki yar&#305;m listenin ortas&#305;na git</p>
-</li>
-<li>
-<p>Aranan eleman daha k&uuml;&ccedil;&uuml;kse
-        *   Soldaki yar&#305;m listenin ortas&#305;na git</p>
-</li>
-<li>
-<p>E&#351;le&#351;ma sa&#287;lan&#305;ncaya kadar devam et</p>
-</li>
-</ul></section>
-            
-          </div>
-          <div class="presenter_notes">
-            <header><h1>Presenter Notes</h1></header>
-            <section>
-            
-            </section>
-          </div>
-          <footer>
-            
-            <aside class="source">
-              Source: <a href="algoritma-analizi/index.md">algoritma-analizi/index.md</a>
-            </aside>
-            
-            <aside class="page_number">
-              4/14
-            </aside>
-          </footer>
-        </div>
-      </div>
-      
-      <!-- slide source: algoritma-analizi/index.md -->
-      <div class="slide-wrapper">
-        <div class="slide">
-          <div class="inner">
-            
-            <header><h2>Arama</h2></header>
-            
-            
-            <section><p>Maliyet</p>
-<ul>
-<li>
-<p>n (liste boyu) k&uuml;&ccedil;&uuml;kse bir kere s&#305;rala ikil ara</p>
-</li>
-<li>
-<p>n b&uuml;y&uuml;kse s&#305;ralama maliyetli</p>
-</li>
-<li>
-<p>Ard&#305;&#351;&#305;l arama yap</p>
-</li>
-</ul></section>
-            
-          </div>
-          <div class="presenter_notes">
-            <header><h1>Presenter Notes</h1></header>
-            <section>
-            
-            </section>
-          </div>
-          <footer>
-            
-            <aside class="source">
-              Source: <a href="algoritma-analizi/index.md">algoritma-analizi/index.md</a>
-            </aside>
-            
-            <aside class="page_number">
-              5/14
-            </aside>
-          </footer>
-        </div>
-      </div>
-      
-      <!-- slide source: algoritma-analizi/index.md -->
-      <div class="slide-wrapper">
-        <div class="slide">
-          <div class="inner">
-            
-            <header><h2>Hash (&Ccedil;&#305;rp&#305;)</h2></header>
-            
-            
-            <section><ul>
-<li>
-<p>Elemanlar&#305; listeye &ccedil;ak&#305;&#351;ma olmayacak &#351;ekilde yerle&#351;tir</p>
-</li>
-<li>
-<p>Daha sonra kolayca eri&#351;ebilece&#287;imiz &#351;ekilde</p>
-</li>
-<li>
-<p>Bellek kullan&#305;m&#305;n&#305; minimuma d&uuml;&#351;&uuml;r</p>
-</li>
-<li>
-<p>Her eleman i&ccedil;in bir slot belirle ve o slota kaydet</p>
-</li>
-<li>
-<p>Y&uuml;k oran&#305; = (yerle&#351;tirilmi&#351; eleman say&#305;s&#305;) / (liste boyutu)</p>
-</li>
-<li>
-<p>Y&uuml;k oran&#305;n&#305; olabildi&#287;ince 1&rsquo;e yakla&#351;t&#305;r</p>
-</li>
-</ul></section>
-            
-          </div>
-          <div class="presenter_notes">
-            <header><h1>Presenter Notes</h1></header>
-            <section>
-            
-            </section>
-          </div>
-          <footer>
-            
-            <aside class="source">
-              Source: <a href="algoritma-analizi/index.md">algoritma-analizi/index.md</a>
-            </aside>
-            
-            <aside class="page_number">
-              6/14
-            </aside>
-          </footer>
-        </div>
-      </div>
-      
-      <!-- slide source: algoritma-analizi/index.md -->
-      <div class="slide-wrapper">
-        <div class="slide">
-          <div class="inner">
-            
-            <header><h2>Hash</h2></header>
-            
-            
-            <section><p>M&uuml;kemmel &Ccedil;&#305;rp&#305;</p>
-<ul>
-<li>
-<p>&Ccedil;ak&#305;&#351;man&#305;n s&#305;f&#305;r oldu&#287;u hash&rsquo;dir</p>
-</li>
-<li>
-<p>Liste boyutu eleman say&#305;s&#305; kadard&#305;r</p>
-</li>
-<li>
-<p>Y&uuml;k oran&#305; 1&rsquo;dir</p>
-</li>
-</ul></section>
-            
-          </div>
-          <div class="presenter_notes">
-            <header><h1>Presenter Notes</h1></header>
-            <section>
-            
-            </section>
-          </div>
-          <footer>
-            
-            <aside class="source">
-              Source: <a href="algoritma-analizi/index.md">algoritma-analizi/index.md</a>
-            </aside>
-            
-            <aside class="page_number">
-              7/14
-            </aside>
-          </footer>
-        </div>
-      </div>
-      
-      <!-- slide source: algoritma-analizi/index.md -->
-      <div class="slide-wrapper">
-        <div class="slide">
-          <div class="inner">
-            
-            <header><h2>&Ccedil;ak&#305;&#351;ma (Collusion) &Ccedil;&ouml;z&uuml;mleme</h2></header>
-            
-            
-            <section><ul>
-<li>
-<p>&Ccedil;ak&#305;&#351;ma: Ayn&#305; slot&rsquo;a iki eleman&#305;n talip olmas&#305;</p>
-</li>
-<li>
-<p>A&ccedil;&#305;k adresleme</p>
-</li>
-<li>
-<p>Zincirleme</p>
-</li>
-</ul></section>
-            
-          </div>
-          <div class="presenter_notes">
-            <header><h1>Presenter Notes</h1></header>
-            <section>
-            
-            </section>
-          </div>
-          <footer>
-            
-            <aside class="source">
-              Source: <a href="algoritma-analizi/index.md">algoritma-analizi/index.md</a>
-            </aside>
-            
-            <aside class="page_number">
-              8/14
-            </aside>
-          </footer>
-        </div>
-      </div>
-      
-      <!-- slide source: algoritma-analizi/index.md -->
-      <div class="slide-wrapper">
-        <div class="slide">
-          <div class="inner">
-            
-            <header><h2>&Ccedil;ak&#305;&#351;ma</h2></header>
-            
-            
-            <section><p>A&ccedil;&#305;k Adresleme</p>
-<ul>
-<li>
-<p>&Ccedil;ak&#305;&#351;ma varsa liste i&ccedil;inde s&#305;rayla ilerle</p>
-</li>
-<li>
-<p>&#304;lk bo&#351; slot&rsquo;a yerle&#351;tir</p>
-</li>
-</ul></section>
-            
-          </div>
-          <div class="presenter_notes">
-            <header><h1>Presenter Notes</h1></header>
-            <section>
-            
-            </section>
-          </div>
-          <footer>
-            
-            <aside class="source">
-              Source: <a href="algoritma-analizi/index.md">algoritma-analizi/index.md</a>
-            </aside>
-            
-            <aside class="page_number">
-              9/14
-            </aside>
-          </footer>
-        </div>
-      </div>
-      
-      <!-- slide source: algoritma-analizi/index.md -->
-      <div class="slide-wrapper">
-        <div class="slide">
-          <div class="inner">
-            
-            <header><h2>&Ccedil;ak&#305;&#351;ma</h2></header>
-            
-            
-            <section><p>Zincirleme</p>
-<ul>
-<li>
-<p>&Ccedil;ak&#305;&#351;ma varsa o slot&rsquo;ta liste olu&#351;tur</p>
-</li>
-<li>
-<p>Eleman&#305; o listeye ekle</p>
-</li>
-</ul></section>
-            
-          </div>
-          <div class="presenter_notes">
-            <header><h1>Presenter Notes</h1></header>
-            <section>
-            
-            </section>
-          </div>
-          <footer>
-            
-            <aside class="source">
-              Source: <a href="algoritma-analizi/index.md">algoritma-analizi/index.md</a>
-            </aside>
-            
-            <aside class="page_number">
-              10/14
-            </aside>
-          </footer>
-        </div>
-      </div>
-      
-      <!-- slide source: algoritma-analizi/index.md -->
-      <div class="slide-wrapper">
-        <div class="slide">
-          <div class="inner">
-            
-            <header><h2>S&#305;ralama</h2></header>
-            
-            
-            <section><ul>
-<li>
-<p>Liste elemanlar&#305;n&#305; s&#305;ralama algoritmalar&#305;</p>
-</li>
-<li>
-<p>Baloncuk (Bubble) S&#305;ralama</p>
-</li>
-<li>
-<p>Se&ccedil;mali (Selection) S&#305;ralama</p>
-</li>
-<li>
-<p>Araya Girmeli (Insertion) S&#305;ralama</p>
-</li>
-</ul></section>
-            
-          </div>
-          <div class="presenter_notes">
-            <header><h1>Presenter Notes</h1></header>
-            <section>
-            
-            </section>
-          </div>
-          <footer>
-            
-            <aside class="source">
-              Source: <a href="algoritma-analizi/index.md">algoritma-analizi/index.md</a>
-            </aside>
-            
-            <aside class="page_number">
-              11/14
-            </aside>
-          </footer>
-        </div>
-      </div>
-      
-      <!-- slide source: algoritma-analizi/index.md -->
-      <div class="slide-wrapper">
-        <div class="slide">
-          <div class="inner">
-            
-            <header><h2>S&#305;ralama</h2></header>
-            
-            
-            <section><p>Baloncuk (Bubble) S&#305;ralama</p>
-<ul>
-<li>
-<p>Listede dola&#351;</p>
-</li>
-<li>
-<p>Kom&#351;u elemanlar&#305; kar&#351;&#305;la&#351;t&#305;r</p>
-</li>
-<li>
-<p>Gerekirse yer de&#287;i&#351;tir</p>
-</li>
-<li>
-<p>Her eleman do&#287;ru yerine gelinceye kadar devam et</p>
-</li>
-</ul></section>
-            
-          </div>
-          <div class="presenter_notes">
-            <header><h1>Presenter Notes</h1></header>
-            <section>
-            
-            </section>
-          </div>
-          <footer>
-            
-            <aside class="source">
-              Source: <a href="algoritma-analizi/index.md">algoritma-analizi/index.md</a>
-            </aside>
-            
-            <aside class="page_number">
-              12/14
-            </aside>
-          </footer>
-        </div>
-      </div>
-      
-      <!-- slide source: algoritma-analizi/index.md -->
-      <div class="slide-wrapper">
-        <div class="slide">
-          <div class="inner">
-            
-            <header><h2>S&#305;ralama</h2></header>
-            
-            
-            <section><p>Se&ccedil;meli (Selection) S&#305;ralama</p>
-<ul>
-<li>
-<p>Listedeki en b&uuml;y&uuml;k eleman&#305; bul</p>
-</li>
-<li>
-<p>Listenin en sonuna koy</p>
-</li>
-<li>
-<p>Sonraki en b&uuml;y&uuml;k eleman&#305; bul</p>
-</li>
-<li>
-<p>En sonun bir yan&#305;na koy</p>
-</li>
-<li>
-<p>S&#305;ralama tamamlan&#305;ncaya kadar devam et</p>
-</li>
-</ul></section>
-            
-          </div>
-          <div class="presenter_notes">
-            <header><h1>Presenter Notes</h1></header>
-            <section>
-            
-            </section>
-          </div>
-          <footer>
-            
-            <aside class="source">
-              Source: <a href="algoritma-analizi/index.md">algoritma-analizi/index.md</a>
-            </aside>
-            
-            <aside class="page_number">
-              13/14
-            </aside>
-          </footer>
-        </div>
-      </div>
-      
-      <!-- slide source: algoritma-analizi/index.md -->
-      <div class="slide-wrapper">
-        <div class="slide">
-          <div class="inner">
-            
-            <header><h2>S&#305;ralama</h2></header>
-            
-            
-            <section><p>Araya Girmeli (Insertion) S&#305;ralama</p>
-<ul>
-<li>
-<p>Liste i&ccedil;inde dola&#351;</p>
-</li>
-<li>
-<p>Se&ccedil;ilen her eleman&#305; &ouml;ncekilerle s&#305;rayla kar&#351;&#305;la&#351;t&#305;r</p>
-</li>
-<li>
-<p>Do&#287;ru araya yerle&#351;tir</p>
-</li>
-<li>
-<p>Listede ilerlendik&ccedil;e geride s&#305;ral&#305; bir liste olu&#351;maya ba&#351;lar</p>
-</li>
-</ul></section>
-            
-          </div>
-          <div class="presenter_notes">
-            <header><h1>Presenter Notes</h1></header>
-            <section>
-            
-            </section>
-          </div>
-          <footer>
-            
-            <aside class="source">
-              Source: <a href="algoritma-analizi/index.md">algoritma-analizi/index.md</a>
-            </aside>
-            
-            <aside class="page_number">
-              14/14
+              2/2
             </aside>
           </footer>
         </div>
@@ -2367,74 +1836,14 @@ div.slide table:not(.highlighttable) tr td:first-child {
       <caption>Table of Contents</caption>
       
       <tr id="toc-row-1">
-        <th><a href="#slide1">Algoritma Analizi</a></th>
+        <th><a href="#slide1">Veri Madencili&#287;i</a></th>
         <td><a href="#slide1">1</a></td>
       </tr>
       
         
         <tr id="toc-row-2" class="sub">
-          <th><a href="#slide2">T(n)</a></th>
+          <th><a href="#slide2">&#305;bm watson</a></th>
           <td><a href="#slide2">2</a></td>
-        </tr>
-        
-        <tr id="toc-row-3" class="sub">
-          <th><a href="#slide3">Arama</a></th>
-          <td><a href="#slide3">3</a></td>
-        </tr>
-        
-        <tr id="toc-row-4" class="sub">
-          <th><a href="#slide4">Arama</a></th>
-          <td><a href="#slide4">4</a></td>
-        </tr>
-        
-        <tr id="toc-row-5" class="sub">
-          <th><a href="#slide5">Arama</a></th>
-          <td><a href="#slide5">5</a></td>
-        </tr>
-        
-        <tr id="toc-row-6" class="sub">
-          <th><a href="#slide6">Hash (&Ccedil;&#305;rp&#305;)</a></th>
-          <td><a href="#slide6">6</a></td>
-        </tr>
-        
-        <tr id="toc-row-7" class="sub">
-          <th><a href="#slide7">Hash</a></th>
-          <td><a href="#slide7">7</a></td>
-        </tr>
-        
-        <tr id="toc-row-8" class="sub">
-          <th><a href="#slide8">&Ccedil;ak&#305;&#351;ma (Collusion) &Ccedil;&ouml;z&uuml;mleme</a></th>
-          <td><a href="#slide8">8</a></td>
-        </tr>
-        
-        <tr id="toc-row-9" class="sub">
-          <th><a href="#slide9">&Ccedil;ak&#305;&#351;ma</a></th>
-          <td><a href="#slide9">9</a></td>
-        </tr>
-        
-        <tr id="toc-row-10" class="sub">
-          <th><a href="#slide10">&Ccedil;ak&#305;&#351;ma</a></th>
-          <td><a href="#slide10">10</a></td>
-        </tr>
-        
-        <tr id="toc-row-11" class="sub">
-          <th><a href="#slide11">S&#305;ralama</a></th>
-          <td><a href="#slide11">11</a></td>
-        </tr>
-        
-        <tr id="toc-row-12" class="sub">
-          <th><a href="#slide12">S&#305;ralama</a></th>
-          <td><a href="#slide12">12</a></td>
-        </tr>
-        
-        <tr id="toc-row-13" class="sub">
-          <th><a href="#slide13">S&#305;ralama</a></th>
-          <td><a href="#slide13">13</a></td>
-        </tr>
-        
-        <tr id="toc-row-14" class="sub">
-          <th><a href="#slide14">S&#305;ralama</a></th>
-          <td><a href="#slide14">14</a></td>
         </tr>
         
       
